@@ -1,0 +1,32 @@
+name: Build & Test
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Use Node.js 20.x
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build TypeScript
+      run: npm run build
+
+    - name: Run tests
+      env:
+        J832_PROVIDER_URL: ${{ secrets.J832_PROVIDER_URL }}
+        J832_CONTRACT_ADDRESS: ${{ secrets.J832_CONTRACT_ADDRESS }}
+        J832_SIGNER_KEY: ${{ secrets.J832_SIGNER_KEY }}
+      run: npm test
