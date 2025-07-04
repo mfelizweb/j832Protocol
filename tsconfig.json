@@ -12,5 +12,6 @@
     "moduleResolution": "bundler",
     "types": ["jest"]
   },
-  "include": ["src", "tests"]
+  "include": ["src"],
+ 
 }
