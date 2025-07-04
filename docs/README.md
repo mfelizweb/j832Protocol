@@ -3,7 +3,6 @@
 **Enterprise-grade blockchain audit trails and multi-admin governance — easy integration for any system.**
 
 [![npm version](https://img.shields.io/npm/v/@j832/sdk.svg)](https://npmjs.com/package/@j832/sdk)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/your-user/j832-sdk/main.yml)](https://github.com/your-user/j832-sdk/actions)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/mfeliz1997/j832-sdk/main.yml)](https://github.com/mfeliz1997/j832-sdk/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
