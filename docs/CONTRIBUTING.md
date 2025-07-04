@@ -21,7 +21,6 @@ We welcome pull requests, bug reports, and new ideas to make J832 Protocol even 
 
 ## Reporting Bugs & Issues
 
-- Search [existing issues](https://github.com/your-user/j832-sdk/issues) before opening a new one.
 - Search [existing issues](https://github.com/mfeliz1997/j832-sdk/issues) before opening a new one.
 - Include steps to reproduce, expected behavior, and screenshots/logs if possible.
 
@@ -33,7 +32,6 @@ We welcome pull requests, bug reports, and new ideas to make J832 Protocol even 
 ## Security
 
 - If you discover a security vulnerability, **DO NOT** open a public issue.  
-  Please email security@yourdomain.com or open a private security advisory.
   Please email security@mfelizweb.com or open a private security advisory.
 
 Thank you for helping make J832 Protocol reliable, secure, and trusted!
