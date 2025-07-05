@@ -10,6 +10,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+**Table of Contents**
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Quick Start](#quick-start)
+- [API Reference](#api-reference)
+- [Security Best Practices](#security-best-practices)
+- [FAQ](#faq)
+- [Contributing](#contributing)
+- [License](#license)
 ---
 
 ## Features
@@ -23,10 +32,12 @@
 ---
 
 ## Installation
+1. `git clone … && cd j832Protocol`
+2. `npm install`
+3. `.env`: define provider URL, keys, contract address
+4. `npm run build && npm test`
 
-npm install j832
-
-Quick Start
+## Quick Start
 
 import { J832, ChangeType } from 'j832';
 
@@ -147,8 +158,7 @@ Monitor your RPC endpoint and contract address for changes.
 
 ## Audit transaction receipts for every call; handle failures gracefully.
 
-## License
-
+ 
 ## MIT
 
 ## Documentation
@@ -167,6 +177,9 @@ J832 Protocol SDK is open-source, designed for enterprise-grade audit and compli
 
 Contributions, bug reports, and security reviews welcome!
 
+
+## License
+MIT © 2025 mfelizweb
 ```
 
 ```
