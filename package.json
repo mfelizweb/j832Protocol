@@ -1,10 +1,11 @@
 {
-  "name": "j832-sdk",
-  "version": "1.0.0-beta.1",
+"name": "j832",
+  "version": "1.0.0-beta.1.2",
   "description": "SDK for J832 Protocol - Blockchain change logging",
-  "author": "mfeliz1997",
+  "author": "mfelizweb",
   "license": "MIT",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -12,8 +13,26 @@
     "test:watch": "jest --watch",
     "prepublishOnly": "npm run build"
   },
- "keywords": ["blockchain", "protocol", "sdk", "j832"],
- 
+  "keywords": [
+    "blockchain",
+    "protocol",
+    "sdk",
+    "j832"
+  ],
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/mfelizweb/j832-sdk.git"
+},
+"bugs": {
+  "url": "https://github.com/mfelizweb/j832-sdk/issues"
+},
+"homepage": "https://github.com/mfelizweb/j832-sdk#readme",
+
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "jest": "^30.0.3",
@@ -21,15 +40,15 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "ethers": "^6.14.4"
+    "ethers": "^6.15.0"
   },
-
-
   "jest": {
-  "preset": "ts-jest",
-  "testEnvironment": "node",
-  "testMatch": ["**/tests/**/*.ts"]
-},
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.ts"
+    ]
+  },
   "exports": {
     ".": "./dist/index.js"
   }

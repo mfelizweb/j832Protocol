@@ -13,5 +13,13 @@
     "types": ["jest"]
   },
   "include": ["src"],
- 
+   "exclude": [
+    "dist",
+    "node_modules",
+    "coverage",
+    "docs",
+    ".vscode",
+    ".github",
+    "*.test.ts"
+  ]
 }

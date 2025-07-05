@@ -5,8 +5,8 @@ import { ChangeType, Change } from './types';
 export interface J832Config {
   providerUrl: string;
   contractAddress: string;
-  privateKey?: string; // Use env var for security!
-  apiKey?: string;     // Reserved for future centralized features
+  privateKey?: string;  
+  apiKey?: string;    
 }
 
 /**
