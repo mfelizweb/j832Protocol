@@ -1,4 +1,4 @@
- # J832 Protocol SDK
+ # J832 Protocol 
 
 **Enterprise-grade blockchain audit trails and multi-admin governance — easy integration for any system.**
 
