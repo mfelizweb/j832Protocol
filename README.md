@@ -1,3 +1,10 @@
+ 
+ <p align="center">
+  <img src="https://github.com/mfelizweb/j832Protocol/blob/main/assets/j832_logo_original.png" width="200"/>
+</p>
+
+ 
+ 
  # J832 Protocol SDK
 
 **Enterprise-grade blockchain audit trails and multi-admin governance — easy integration for any system.**
