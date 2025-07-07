@@ -1,6 +1,6 @@
 {
-"name": "j832",
-  "version": "1.0.0-beta.1.2",
+  "name": "j832",
+  "version": "1.0.0",
   "description": "SDK for J832 Protocol - Blockchain change logging",
   "author": "mfelizweb",
   "license": "MIT",
@@ -8,7 +8,8 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && npm run copy-abi",
+    "copy-abi": "cpx \"abi/**/*\" dist/abi",
     "test": "jest",
     "test:watch": "jest --watch",
     "prepublishOnly": "npm run build"
@@ -19,15 +20,14 @@
     "sdk",
     "j832"
   ],
- "repository": {
-  "type": "git",
-  "url": "git+https://github.com/mfelizweb/j832-sdk.git"
-},
-"bugs": {
-  "url": "https://github.com/mfelizweb/j832-sdk/issues"
-},
-"homepage": "https://github.com/mfelizweb/j832-sdk#readme",
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfelizweb/j832Protocol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mfelizweb/j832Protocol/issues"
+  },
+  "homepage": "https://github.com/mfelizweb/j832Protocol#readme",
   "files": [
     "dist",
     "README.md",
@@ -35,6 +35,7 @@
   ],
   "devDependencies": {
     "@types/jest": "^30.0.0",
+    "cpx": "^1.5.0",
     "jest": "^30.0.3",
     "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"

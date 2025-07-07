@@ -1,6 +1,17 @@
- import { ethers } from 'ethers';
-import J832ProtocolABI from '../abi/J832Protocol.json';
-import { ChangeType, Change } from './types';
+import { ethers } from 'ethers';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import { ChangeType, Change } from './types.js';
+
+// Resolve __dirname in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Build the path to the ABI JSON
+const abiPath = join(__dirname, 'abi/J832Protocol.json');
+
+const J832ProtocolABI = JSON.parse(readFileSync(abiPath, 'utf8'));
 
 export interface J832Config {
   providerUrl: string;

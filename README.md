@@ -1,17 +1,17 @@
- # J832 Protocol SDK
+ # J832 
 
 **Enterprise-grade blockchain audit trails and multi-admin governance — easy integration for any system.**
 
+ 
+
 [![npm version](https://img.shields.io/npm/v/j832.svg)](https://npmjs.com/package/j832)
-
-[![Build Status](https://img.shields.io/github/actions/workflow/status/mfelizweb/j832/main.yml)](https://github.com/mfelizweb/j832/actions)
-
-
+ 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
-
+ # Production-ready! Contract and SDK stable for integration.
+ ---
 ## Features
 
 - Immutable audit trails for any entity, resource, or process
@@ -21,6 +21,10 @@
 - Works with any EVM-compatible chain
 
 ---
+
+## Contract Address (Testnet)
+- Polygon Amoy: [0x1Cb32a904b39D019bE14706D1aCA504002059d9e](https://amoy.polygonscan.com/address/0x1Cb32a904b39D019bE14706D1aCA504002059d9e)
+
 
 ## Installation
 
@@ -132,7 +136,7 @@ isAdmin(resourceId, address)
 
 getResourceOwner(resourceId)
 
-[See full documentation](https://github.com/mfelizweb/j832-sdk/tree/main/docs)
+[See full documentation](https://github.com/mfelizweb/j832Protocol/tree/main/docs)
 
 
 ## Security Best Practices
@@ -163,9 +167,15 @@ Governance
 
 ## FAQ
 
-J832 Protocol SDK is open-source, designed for enterprise-grade audit and compliance, and extensible for any regulated industry.
+J832  SDK is open-source, designed for enterprise-grade audit and compliance, and extensible for any regulated industry.
 
 Contributions, bug reports, and security reviews welcome!
+
+
+## Support / Contact
+- [Open issues or PRs](https://github.com/mfelizweb/j832Protocol/issues)
+- Discord: [Pon aquí si tienes]
+- Twitter: [Pon aquí si tienes]
 
 ```
 
