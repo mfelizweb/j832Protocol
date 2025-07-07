@@ -1,9 +1,4 @@
- <p align="center">
-  <img src="https://github.com/mfelizweb/j832Protocol/blob/main/assets/j832_logo_original.png" width="200"/>
-</p>
-
- 
- # J832 
+ # J832 Protocol SDK
 
 **Enterprise-grade blockchain audit trails and multi-admin governance — easy integration for any system.**
 
@@ -14,6 +9,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+**Table of Contents**
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Quick Start](#quick-start)
+- [API Reference](#api-reference)
+- [Security Best Practices](#security-best-practices)
+- [FAQ](#faq)
+- [Contributing](#contributing)
+- [License](#license)
 ---
  # Production-ready! Contract and SDK stable for integration.
  ---
@@ -32,10 +36,12 @@
 
 
 ## Installation
+1. `git clone … && cd j832Protocol`
+2. `npm install`
+3. `.env`: define provider URL, keys, contract address
+4. `npm run build && npm test`
 
-npm install j832
-
-Quick Start
+## Quick Start
 
 import { J832, ChangeType } from 'j832';
 
@@ -156,8 +162,7 @@ Monitor your RPC endpoint and contract address for changes.
 
 ## Audit transaction receipts for every call; handle failures gracefully.
 
-## License
-
+ 
 ## MIT
 
 ## Documentation
@@ -182,6 +187,9 @@ Contributions, bug reports, and security reviews welcome!
 - Discord: [Pon aquí si tienes]
 - Twitter: [Pon aquí si tienes]
 
+
+## License
+MIT © 2025 mfelizweb
 ```
 
 ```
