@@ -188,15 +188,20 @@ J832  SDK is open-source, designed for enterprise-grade audit and compliance, an
 
 Contributions, bug reports, and security reviews welcome!
 
+## License
+MIT © 2025 mfelizweb
 
 ## Support / Contact
 - [Open issues or PRs](https://github.com/mfelizweb/j832Protocol/issues)
-- Discord: [Pon aquí si tienes]
-- Twitter: [Pon aquí si tienes]
 
 
-## License
-MIT © 2025 mfelizweb
+## 📲 Community
+
+- 🗨️ [Join us on Discord](https://discord.gg/tCZCpGnC)
+- 🐦 [Follow us on Twitter (X)](https://x.com/j832protocol?t=Ay8mE3brweZN_t9I-Kts5Q&s=09)
+
+
+
 ```
 
 ```
